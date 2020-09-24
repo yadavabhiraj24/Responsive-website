@@ -1,0 +1,112 @@
+th{
+	color: #ffffff;
+	border-right: 1px solid #ffffff;
+	border-bottom: 2px solid #618e39;
+	background: linear-gradient(to bottom right,#70ad3a,#81e529);
+	opacity: 0.8;
+	text-align: center;
+	padding: 8px;
+	border-radius: 2px 2px 0 0;
+}
+th:first-child {
+	text-align: left;
+}
+td{
+	background-color: rgba(192,255,137,0.4);
+	color: rgba(14,14,14,0.6);
+	padding: 8px;
+	text-align: center;
+}
+td:first-child{
+	text-align: left;
+}
+table{
+	margin: 0 auto;
+	width: 75%;
+	font-family: "Times New Roman", Arial;
+	line-height: 23px;
+	text-shadow: currentColor;
+}
+td:hover{
+	   color: rgba(14,14,14,1); /* IN rgba the a-part is the opacity*/
+}
+
+
+header{
+	background-color: rgba(189,189,189,1);
+	background-image: url(../images/flywheel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 10px;
+	padding-bottom: 50px;
+}
+h1{
+	color: rgba(255,255,255,1);
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+nav a{
+	color: rgba(51,51,51,1);
+	background-color: rgba(255,255,255,0.25);
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	padding: 5px;
+	margin: 2px;
+	border-radius: 3px;
+	text-decoration: none;
+
+}
+.active{
+	background-color: #fff;
+}
+.left,img{
+	width: 200px;
+	background-size: contain;
+	display: inline-block;
+	transition-property: width,border-radius;
+	transition: transform 1s;
+	
+}
+.left{
+	background: linear-gradient(to bottom right,red,yellow);
+	background: -webkit-linear-gradient(to bottom right,red,yellow);
+	background: -moz-linear-gradient(to bottom right,red,yellow);
+	background: -o-linear-gradient(to bottom right,red,yellow);
+	padding: 15px;
+	float: left;
+	padding-bottom: 100px;
+}
+.right{
+	display: inline-block;
+	width: 70%;
+	float: left;
+
+}
+img{
+	margin-bottom: 25px;
+	border: 1px solid #ffffff;
+}
+
+h2{
+	color: rgba(42,115,204,1);
+	text-transform: uppercase;
+}
+body{
+	margin: 5px;
+	padding: 10px;
+}
+p.right:hover {
+	border: 1px solid #B3D;
+	color: #CCD34E;
+}
+img:hover{
+	width: 400px;
+	border-radius: 5px;
+	transition-delay: .5s;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+	transform: rotate(360deg);
+}
+
